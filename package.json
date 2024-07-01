@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon backend/server.js --ignore client",
-    "build": "npm install && npm install --prefix chatbird && npm run build --prefix chatbird"
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix chatbird && npm run build --prefix chatbird"
   },
   "author": "Amritpreet Singh",
   "license": "ISC",
