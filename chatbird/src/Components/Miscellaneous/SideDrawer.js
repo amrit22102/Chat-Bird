@@ -142,7 +142,7 @@ function SideDrawer() {
           </Button>
         </Tooltip>
         <Text fontSize="2xl" fontFamily="Poppins" fontWeight="500">
-          CHATY-BIRD
+          CHAT-BIRD
         </Text>
         <div>
           <Menu>
