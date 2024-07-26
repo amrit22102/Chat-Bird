@@ -45,9 +45,9 @@ const PORT = process.env.PORT || 5000;
 const server = app.listen(port, () => console.log(`Listening on port ${port}`));
 
 const io = require("socket.io")(server, {
-  pingTimeout: 60000,
+  pingTimeout: 80000,
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://chat-bird.onrender.com",
   },
 });
 
