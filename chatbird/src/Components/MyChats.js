@@ -61,7 +61,7 @@ const MyChats = ({ fetchAgain }) => {
         px={3}
         fontSize={{ base: "28px", md: "30px" }}
         fontFamily="Poppins"
-        d="flex"
+        display="flex"
         w="100%"
         justifyContent="space-between"
         alignItems="center"
@@ -70,7 +70,7 @@ const MyChats = ({ fetchAgain }) => {
         <GroupChatModal>
           <Button
             display="flex"
-            fontSize={{ base: "17px", md: "10px", lg: "17px" }}
+            fontSize={{ base: "15px", md: "10px", lg: "15px" }}
             rightIcon={<AddIcon />}
           >
             New Group Chat
